@@ -10,12 +10,13 @@ Welcome to GDB Online.
 
 int main()
 {
-    int i=8;
-    if(i&(i-1)){
-        printf("false");
+    int i=2100;
+    if(i%400==0||(i%4==0 && i%100 !=0)){
+        printf("閏年");
     }
+    
     else{
-        printf("true");
+        printf("不是閏年");
     }
 
     return 0;

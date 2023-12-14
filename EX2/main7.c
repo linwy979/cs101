@@ -10,13 +10,7 @@ Welcome to GDB Online.
 
 int main()
 {
-    int i=8;
-    if(i&(i-1)){
-        printf("false");
-    }
-    else{
-        printf("true");
-    }
-
+    int i=2;
+    printf("%.5f", i*3.1415926535);
     return 0;
 }

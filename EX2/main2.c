@@ -10,12 +10,18 @@ Welcome to GDB Online.
 
 int main()
 {
-    int i=8;
-    if(i&(i-1)){
-        printf("false");
+    int i=2;
+    if(i%15==0){
+        printf("Love IU");
+    }
+    else if(i%3==0){
+        printf("Love");
+    }
+    else if(i%5==0){
+        printf("IU");
     }
     else{
-        printf("true");
+        printf("%d\n", i);
     }
 
     return 0;
