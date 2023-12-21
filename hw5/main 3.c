@@ -15,7 +15,7 @@ int main()
        printf("%d*%d=%d\t",x,y,x*y);
        if(y==9){
            x++;
-           y=1;
+           y=0;
            printf("\n");
        }
    }
